@@ -147,4 +147,34 @@ Date of creation: <DD-MM-YYYY>
 
 ---
 
+## Source and AI Usage Conventions
+
+### AI Assistance
+
+When using an AI tool to generate text, code, or other content, indicate it in the following format:
+
+**Source AI:**  
+Source AI-Name:
+
+**Prompt:**  
+Prompt given to the AI
+
+**Example:**  
+Source ChatGPT:  
+Prompt: Generate a Python function to calculate factorial recursively
+
+### Documentation or External Sources
+
+For references to official documentation or external websites, use this format:
+
+**Source:**  
+URL of the document or website
+
+**Example:**  
+Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+**Where:**  
+The sources must be indicated in the code just before using it.
+---
+
 Living document - any change must be validated by the team.
