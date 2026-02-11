@@ -91,6 +91,16 @@ Goals:
 
 * `snake_case`
 
+#### Header
+"""  
+File: <filename>  
+Project: <project-name>  
+Description: <short description of the module purpose>  
+Author: Sofian Hussein  
+Created: <YYYY-MM-DD>  
+Last modified: <YYYY-MM-DD>  
+"""
+
 #### Endpoints
 
 * RESTful structure
@@ -125,6 +135,15 @@ Examples:
 #### Services
 
 * `camelCase`
+
+#### Header
+/*  
+File: <filename>  
+Project: <project-name>  
+Description: <short description of the file responsibility>  
+Author: Sofian Hussein  
+Date of creation: <DD-MM-YYYY>  
+*/
 
 ---
 
