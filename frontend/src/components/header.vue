@@ -1,7 +1,6 @@
 <template>
   <header class="w-full bg-[#cc1111] flex items-center h-13 px-4 relative overflow-hidden font-['Oswald'] text-white text-sm tracking-wide">
 
-    <!-- Accueil -->
     <span class="z-10 whitespace-nowrap">Accueil</span>
 
     <!-- Chevrons gauche -->
