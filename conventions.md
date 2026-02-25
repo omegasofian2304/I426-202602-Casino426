@@ -1,4 +1,4 @@
-# Repository Conventions
+ # Repository Conventions
 
 This document defines the technical and organizational conventions of the project to ensure clean, consistent, readable, and maintainable code.
 
