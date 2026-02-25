@@ -6,6 +6,7 @@
     <br>
     <router-link to="/diamond-mines">DiamondMines</router-link>
     <router-link to="/Blackjack">Blackjack</router-link>
+    <router-link to="/Slotmachine">Slotmachine</router-link>
   </nav>
   <router-view />
 </template>
