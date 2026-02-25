@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
+import DiamondMinesGrid from "../components/DiamondMinesGrid.vue";
 import Blackjack from '../pages/blackjack.vue';
 
 const routes = [
     { path: '/Home', component: Home },
+    { path: '/diamond-mines', component: DiamondMinesGrid},
     { path: '/Blackjack', component: Blackjack }
 ];
 
