@@ -67,4 +67,5 @@
 
 <script setup>
 import PlayButton from '../components/PlayButton.vue'
+import Header___ from "@/components/header___.vue";
 </script>

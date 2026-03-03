@@ -1,7 +1,7 @@
 <template>
   <header class="w-full bg-[#cc1111] flex items-center h-13 px-4 relative overflow-hidden font-['Oswald'] text-white text-sm tracking-wide">
 
-    <span class="z-10 whitespace-nowrap">Accueil</span>
+    <span class="z-10 whitespace-nowrap" onclick="alert('Accueil cliqué !')">Accueil</span>
 
     <!-- Chevrons gauche -->
     <div class="absolute left-20 top-0 h-full flex items-center pointer-events-none z-0">

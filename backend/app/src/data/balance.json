@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nom": "Jean Dupont",
+      "Pseudo": "JeanDupe",
+      "email": "jean.dupont@email.com",
+      "Balance": 30
+    },
+    {
+      "id": 2,
+      "nom": "Marie Martin",
+      "email": "marie.martin@email.com",
+      "Balance": 30000
+    },
+    {
+      "id": 3,
+      "nom": "Paul Durand",
+      "email": "paul.durand@email.com",
+      "Balance": 3033
+    }
+  ]
+}
