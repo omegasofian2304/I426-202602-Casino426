@@ -9,6 +9,8 @@ const routes = [
     { path: '/diamond-mines', component: DiamondMinesGrid},
     { path: '/Blackjack', component: Blackjack },
     { path: '/Header', component: Header }
+    { path: '/Banditmanchot', component: Banditmanchot }
+
 ];
 
 const router = createRouter({
