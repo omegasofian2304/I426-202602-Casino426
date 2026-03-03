@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
 import DiamondMinesGrid from "../components/DiamondMinesGrid.vue";
 import Blackjack from '../pages/blackjack.vue';
-import Header from '../components/header.vue';
+import Header from '../components/header___.vue';
 
 const routes = [
     { path: '/Home', component: Home },

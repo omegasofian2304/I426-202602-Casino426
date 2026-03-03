@@ -35,6 +35,9 @@
 
   </header>
 </template>
-
+/*
+Source: qwen.ia
+Prompt: How can I do color gradient in his header ?
+*/
 <script setup lang="ts">
 </script>
