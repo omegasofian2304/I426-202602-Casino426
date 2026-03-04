@@ -1,8 +1,17 @@
+<!-- ***********************************************************************************************************************
+* Program name :           header__.vue
+* Description :            header de l'app
+* Author :                 Loïc Roux
+* Creation date :          04.03.2026
+* Modified by :            Loïc Roux
+* Modification date :      04.03.2026
+* Version :                4.0
+**********************************************************************************************************************/ -->
 <template>
   <header class="w-full bg-[#cc1111] flex items-center h-13 px-4 relative overflow-hidden font-['Oswald'] text-white text-sm tracking-wide">
-
-    <span class="z-10 whitespace-nowrap" onclick="alert('Accueil cliqué !')">Accueil</span>
-
+    <router-link to="/home" class="text-[#000000]">
+      <button>Accueil</button>
+    </router-link>
     <!-- Chevrons gauche -->
     <div class="absolute left-20 top-0 h-full flex items-center pointer-events-none z-0">
       <div class="w-5 h-full bg-black opacity-100" style="clip-path: polygon(30% 0%, 100% 0%, 70% 100%, 0% 100%)"></div>
@@ -40,4 +49,6 @@ Source: qwen.ia
 Prompt: How can I do color gradient in his header ?
 */
 <script setup lang="ts">
+import {users } from '../data/balance.json'
+import Home from "@/pages/home.vue";
 </script>

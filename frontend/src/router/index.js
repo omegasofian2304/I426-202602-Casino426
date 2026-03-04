@@ -1,3 +1,12 @@
+/***********************************************************************************************************************
+ * Program name :           index.js
+ * Description :            l'index avec les routes
+ * Author :                 Loïc Roux
+ * Creation date :          04.03.2026
+ * Modified by :            Loïc Roux
+ * Modification date :      04.03.2026
+ * Version :                4.0
+ **********************************************************************************************************************/
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
 import DiamondMinesGrid from "../components/DiamondMinesGrid.vue";
