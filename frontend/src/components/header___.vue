@@ -8,7 +8,7 @@ Project: Casino426
 <template>
   <header class="w-full bg-[#cc1111] flex items-center h-13 px-4 relative overflow-hidden font-['Oswald'] text-white text-sm tracking-wide">
     <router-link to="/home" class="text-[#000000]">
-      <button>Accueil</button>
+      <span class="z-10 whitespace-nowrap">Accueil</span>
     </router-link>
     <!-- Chevrons gauche -->
     <div class="absolute left-20 top-0 h-full flex items-center pointer-events-none z-0">
