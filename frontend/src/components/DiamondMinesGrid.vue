@@ -25,3 +25,6 @@ Date of creation: 09-06-2025
 Source: Claude
 Prompt: How can I round the corners of my squares to make them a little prettier?
 */
+<script setup lang="ts">
+import Header___ from "../components/header___.vue";
+</script>
