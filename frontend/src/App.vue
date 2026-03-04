@@ -1,16 +1,12 @@
-<!-- ***********************************************************************************************************************
-* Program name :           App.vue
-* Description :            la page de base
-* Author :                 Loïc Roux
-* Creation date :          04.03.2026
-* Modified by :            Loïc Roux
-* Modification date :      04.03.2026
-* Version :                4.0
-********************************************************************************************************************** -->
 <script setup>
-import Header___ from "@/components/header___.vue";
 </script>
 <template>
-  <header___></header___>
+  <nav>
+    <router-link to="/Home">Home </router-link>
+    <br>
+    <router-link to="/diamond-mines">DiamondMines</router-link>
+    <router-link to="/Blackjack">Blackjack</router-link>
+    <router-link to="/Slotmachine">Slotmachine</router-link>
+  </nav>
   <router-view />
 </template>

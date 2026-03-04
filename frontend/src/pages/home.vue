@@ -1,12 +1,3 @@
-<!-- ***********************************************************************************************************************
-* Program name :           home.vue
-* Description :            la page de base (home)
-* Author :                 Loïc Roux
-* Creation date :          04.03.2026
-* Modified by :            Loïc Roux
-* Modification date :      04.03.2026
-* Version :                4.0
-********************************************************************************************************************** -->
 <template>
   <div class="min-h-screen bg-[#8B0000] p-8 font-sans">
 
@@ -76,5 +67,4 @@
 
 <script setup>
 import PlayButton from '../components/PlayButton.vue'
-import Header___ from "@/components/header___.vue";
 </script>
