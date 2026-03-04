@@ -14,9 +14,11 @@
     <div
         class="
         bg-gradient-to-b from-green-400 to-green-600
+      hover:from-green-600 hover:to-green-800
         rounded-full
         px-10 py-2
         shadow-inner
+        transition-transform duration-150
       "
     >
       <span class="text-white font-semibold text-lg tracking-wide drop-shadow">
@@ -25,9 +27,6 @@
     </div>
   </button>
 </template>
-<prop>
-
-</prop>
 <script setup>
 // No logic needed for this button
 </script>
