@@ -1,12 +1,10 @@
-<!-- ***********************************************************************************************************************
-* Program name :           header__.vue
-* Description :            header de l'app
-* Author :                 Loïc Roux
-* Creation date :          04.03.2026
-* Modified by :            Loïc Roux
-* Modification date :      04.03.2026
-* Version :                4.0
-**********************************************************************************************************************/ -->
+/*
+File: header__.vue
+Project: Casino426
+  Description: the header is used for this project.
+  Author: Loïc Roux
+  Date of creation: 04.03.2026
+  */
 <template>
   <header class="w-full bg-[#cc1111] flex items-center h-13 px-4 relative overflow-hidden font-['Oswald'] text-white text-sm tracking-wide">
     <router-link to="/home" class="text-[#000000]">
@@ -49,6 +47,4 @@ Source: qwen.ia
 Prompt: How can I do color gradient in his header ?
 */
 <script setup lang="ts">
-import {users } from '../data/balance.json'
-import Home from "@/pages/home.vue";
 </script>
