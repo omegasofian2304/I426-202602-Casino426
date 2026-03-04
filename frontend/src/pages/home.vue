@@ -1,3 +1,10 @@
+/*
+File: Home.vue
+Project: Casino426
+Description: home
+Author: Loïc Roux
+Date of creation: 04.03.2026
+*/
 <template>
   <div class="min-h-screen bg-[#8B0000] p-8 font-sans">
 

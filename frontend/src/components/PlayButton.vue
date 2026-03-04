@@ -26,5 +26,5 @@ defineProps({
 
 /*
 Source: claude.ia
-Prompt: How can I do some props from playbutton to home.vue for an easy change to the button ?
+Prompt: How can I do some props from playbutton to home.vue for an easy change to the button  ?
 */
