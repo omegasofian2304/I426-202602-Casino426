@@ -1,3 +1,10 @@
+/*
+File: Home.vue
+Project: Casino426
+Description: home
+Author: Loïc Roux
+Date of creation: 04.03.2026
+*/
 <template>
   <div class="min-h-screen bg-[#8B0000] p-8 font-sans">
 
@@ -31,7 +38,7 @@
             <img src="../assets/img/black_jack.png" alt="blackjack" class="w-full h-32 object-cover" />
           </div>
           <span class="text-sm text-gray-700 mt-1 mb-1">black jack</span>
-          <PlayButton />
+          <PlayButton route="/blackjack" />
         </div>
 
         <!-- Diamond Mines -->
@@ -40,7 +47,7 @@
             <img src="../assets/img/diamond_mines.png" alt="diamond mines" class="w-full h-32 object-cover" />
           </div>
           <span class="text-sm text-gray-700 mt-1 mb-1">diamond mines</span>
-          <PlayButton />
+          <PlayButton route="/diamond-mines" />
         </div>
 
         <!-- Machine à sous -->
@@ -49,7 +56,7 @@
             <img src="../assets/img/bandit_manchot.png" alt="bandit manchot" class="w-full h-32 object-cover" />
           </div>
           <span class="text-sm text-gray-700 mt-1 mb-1">machine a sous</span>
-          <PlayButton />
+          <PlayButton route="/bandit-manchot" />
         </div>
 
       </div>
