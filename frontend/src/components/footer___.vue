@@ -8,11 +8,11 @@ Project: Casino426
 <template>
   <footer class="w-full bg-[#cc1111] flex items-center h-13 px-4 relative overflow-hidden font-['Oswald'] text-white text-sm tracking-wide">
 
-    /*
+    <!--
     Source: chatgpt.com
     Prompt: comment mettre le contact a gauche?
       avec les 4 lignes de ccodes a la suite.
-    */
+    -->
     <!-- Nav gauche -->
     <div class="z-10 flex items-center gap-3">
       <span class="whitespace-nowrap text-sm">Contact</span>
