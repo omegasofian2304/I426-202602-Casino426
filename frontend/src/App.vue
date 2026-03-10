@@ -1,12 +1,7 @@
 <script setup>
+import header___ from "../src/components/header___.vue";
 </script>
 <template>
-  <nav>
-    <router-link to="/Home">Home </router-link>
-    <br>
-    <router-link to="/diamond-mines">DiamondMines</router-link>
-    <router-link to="/Blackjack">Blackjack</router-link>
-    <router-link to="/Slotmachine">Slotmachine</router-link>
-  </nav>
+  <header___></header___>
   <router-view />
 </template>

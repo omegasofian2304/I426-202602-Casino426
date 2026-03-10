@@ -1,5 +1,5 @@
 # Casino426
-Casino426 is an online casino. The casino has blackjack, diamond mines and a one-armed bandit. This project was built as a team exercise focused on applying Agile principles in a collaborative environment. The goal was to work iteratively, communicate effectively, and deliver value incrementally — following core Agile values such as collaboration, adaptability, continuous improvement, and team ownership of the work.
+Casino426 is an online casino. The casino has blackjack, diamond mines and a one-armed bandit. This project was built as a team exercise focused on applying Agile principles in a collaborative environment. The goal was to work iteratively, communicate effectively, and deliver value incrementally following core Agile values such as collaboration, adaptability, continuous improvement, and team ownership of the work.
 
 # Team
 - Samuel T. : Product Owner
