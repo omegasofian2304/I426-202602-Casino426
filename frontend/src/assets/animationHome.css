@@ -1,0 +1,50 @@
+/*
+File: animationHome.css
+Project: Casino426
+Description: Petit css qui permet de lancer une animation avant l'arrivée sur le casino
+Author: Samuel Antunes
+Date of creation: 11.03.2026
+*/
+
+
+/* Animation d'arrivée de page */
+
+.home-enter-active {
+    animation: homeFadeSlide 0.7s ease forwards;
+}
+
+.home-leave-active {
+    animation: homeFadeSlideOut 0.4s ease forwards;
+}
+
+@keyframes homeFadeSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(40px) scale(0.98);
+        filter: blur(5px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(-5px) scale(1.01);
+        filter: blur(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+}
+
+@keyframes homeFadeSlideOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
