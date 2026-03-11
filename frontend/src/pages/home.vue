@@ -38,7 +38,7 @@ Date of creation: 04.03.2026
             <img src="../assets/img/black_jack.png" alt="blackjack" class="w-full h-32 object-cover" />
           </div>
           <span class="text-sm text-gray-700 mt-1 mb-1">black jack</span>
-          <PlayButton route="/blackjack" />
+          <PlayButton route="/blackjack"  text="Jouer" class="bg-gradient-to-b from-green-400 to-green-600 hover:from-green-600 hover:to-green-800 rounded-full px-10 py-2 shadow-inner transition-transform duration-150"/>
         </div>
 
         <!-- Diamond Mines -->
@@ -47,7 +47,7 @@ Date of creation: 04.03.2026
             <img src="../assets/img/diamond_mines.png" alt="diamond mines" class="w-full h-32 object-cover" />
           </div>
           <span class="text-sm text-gray-700 mt-1 mb-1">diamond mines</span>
-          <PlayButton route="/diamond-mines" />
+          <PlayButton route="/diamond-mines"  text="Jouer" class="bg-gradient-to-b from-green-400 to-green-600 hover:from-green-600 hover:to-green-800 rounded-full px-10 py-2 shadow-inner transition-transform duration-150"/>
         </div>
 
         <!-- Machine à sous -->
@@ -56,7 +56,7 @@ Date of creation: 04.03.2026
             <img src="../assets/img/bandit_manchot.png" alt="bandit manchot" class="w-full h-32 object-cover" />
           </div>
           <span class="text-sm text-gray-700 mt-1 mb-1">machine a sous</span>
-          <PlayButton route="/bandit-manchot" />
+          <PlayButton route="/bandit-manchot" text="Jouer" class="bg-gradient-to-b from-green-400 to-green-600 hover:from-green-600 hover:to-green-800 rounded-full px-10 py-2 shadow-inner transition-transform duration-150"/>
         </div>
 
       </div>
@@ -65,7 +65,7 @@ Date of creation: 04.03.2026
     <!-- Leaderboard Section -->
     <div class="mt-8">
       <div class="inline-block bg-[#f8a0a0] rounded-full px-10 py-3">
-        <span class="text-3xl font-light text-black">Leaderboard</span>
+        <PlayButton route="/leaderboard" text="Leaderboard" class="text-3xl font-light text-black"/>
       </div>
     </div>
 
