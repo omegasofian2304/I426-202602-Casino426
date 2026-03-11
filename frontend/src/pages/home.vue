@@ -64,14 +64,24 @@ Date of creation: 04.03.2026
 
     <!-- Leaderboard Section -->
     <div class="mt-8">
-      <div class="inline-block bg-[#f8a0a0] rounded-full px-10 py-3">
+      <button
+          @click="goToLeaderboard"
+          class="inline-block bg-[#f8a0a0] rounded-full px-10 py-3 cursor-pointer hover:bg-[#f08080] transition-colors duration-200"
+      >
         <span class="text-3xl font-light text-black">Leaderboard</span>
-      </div>
+      </button>
     </div>
 
   </div>
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router'
 import PlayButton from '../components/PlayButton.vue'
+
+const router = useRouter()
+
+const goToLeaderboard = () => {
+  router.push('/leaderboard')
+}
 </script>
