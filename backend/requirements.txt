@@ -1,2 +1,5 @@
 fastapi
 uvicorn[standard]
+bcrypt
+email-validator
+pathlib
