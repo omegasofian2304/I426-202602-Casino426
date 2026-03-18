@@ -38,7 +38,7 @@ Date of creation: 10-03-2025
       <span class="bg-[radial-gradient(circle_at_35%_35%,#ffe066,#f5b800)] shadow-[0_2px_8px_rgba(245,184,0,0.5),inset_0_1px_0_rgba(255,255,255,0.3)] rounded-xl px-3 py-2 font-['Oswald'] font-bold text-[#5a0000] text-sm inline-block">{{ name_game }}</span>
     </div>
 
-    <!-- Col 8 : Solde -->
+    <!-- Col 8 : Solde  -->
     <div class="flex justify-center">
       <span class="bg-[radial-gradient(circle_at_35%_35%,#ffe066,#f5b800)] shadow-[0_2px_8px_rgba(245,184,0,0.5),inset_0_1px_0_rgba(255,255,255,0.3)] rounded-xl px-4 py-2 font-['Oswald'] font-bold text-[#5a0000] text-base inline-block">{{ solde }} $</span>
     </div>

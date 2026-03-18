@@ -41,7 +41,7 @@ Date of creation: 04.03.2026
           <PlayButton route="/blackjack"  text="Jouer" class="bg-gradient-to-b from-green-400 to-green-600 hover:from-green-600 hover:to-green-800 rounded-full px-10 py-2 shadow-inner transition-transform duration-150"/>
         </div>
 
-        <!-- Diamond Mines -->
+        <!-- Diamond Mines  -->
         <div class="bg-[#f8a0a0] rounded-2xl p-3 flex flex-col items-center w-48">
           <div class="rounded-xl overflow-hidden w-full h-32 bg-[#2d1b00] flex items-center justify-center">
             <img src="../assets/img/diamond_mines.png" alt="diamond mines" class="w-full h-32 object-cover" />
