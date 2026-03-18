@@ -3,7 +3,7 @@ File: leaderboard___.vue
 Project: casino-royale
 Description: the leaderboard
 Author: Roux Loïc
-Date of creation: 10-03-2025
+Date of creation: 10-03-2026
 -->
 <script setup lang="ts">
 import leaderboard_row from '../components/leaderboard_row.vue'

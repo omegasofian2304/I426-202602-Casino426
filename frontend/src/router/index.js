@@ -2,8 +2,8 @@
 File: index.js
 Project: casino-royale
 Description: the index with routes
-Author: Roux Loïc
-Date of creation: 18-03-2025
+Author: Hussein Sofian
+Date of creation: 24-02-2026
 -->
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
