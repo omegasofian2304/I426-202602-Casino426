@@ -9,6 +9,7 @@ Casino426 is an online casino. The casino has blackjack, diamond mines and a one
 - Milo : Developer
 - Samuel A. : Developer
 - Loic : Developer
+- Léo : Developer
 
 
 # Requirements
