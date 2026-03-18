@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nom": "Jean Dupont",
+      "Pseudo": "JeanDupe",
+      "email": "jean.dupont@email.com",
+      "solde": 30
+    }
+  ]
+}

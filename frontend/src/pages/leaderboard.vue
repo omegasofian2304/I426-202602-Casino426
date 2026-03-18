@@ -1,7 +1,7 @@
 /*
 File: leaderboard.vue
 Project: Casino426
-Description: le leaderboard
+Description: the leaderboard
 Author: Loïc Roux
 Date of creation: 10.03.2026
 */
