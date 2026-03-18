@@ -1,3 +1,10 @@
+<!--
+File: index.js
+Project: casino-royale
+Description: the index with routes
+Author: Hussein Sofian
+Date of creation: 24-02-2026
+-->
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
 import DiamondMinesGrid from "../components/DiamondMinesGrid.vue";
