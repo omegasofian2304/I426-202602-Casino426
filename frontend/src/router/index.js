@@ -4,6 +4,7 @@ Project: casino-royale
 Description: the index with routes
 Author: Hussein Sofian
 Date of creation: 24-02-2026
+Last modif: comms
 */
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
