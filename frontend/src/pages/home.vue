@@ -33,44 +33,38 @@ Date of creation: 04.03.2026
 
           <div class="flex gap-6 justify-center items-start">
 
-            <!-- Black Jack -->
-            <div class="bg-[#f8a0a0] rounded-2xl p-3 flex flex-col items-center w-48">
-              <div class="outline outline-2 outline-[#5ab4f0] rounded-xl overflow-hidden w-full h-32 bg-[#1a1a2e] flex items-center justify-center">
-                <img src="../assets/img/black_jack.png" alt="blackjack" class="w-full h-32 object-cover" />
-              </div>
-              <span class="text-sm text-gray-700 mt-1 mb-1">black jack</span>
-              <PlayButton route="/blackjack" />
-            </div>
-
-            <!-- Diamond Mines -->
-            <div class="bg-[#f8a0a0] rounded-2xl p-3 flex flex-col items-center w-48">
-              <div class="rounded-xl overflow-hidden w-full h-32 bg-[#2d1b00] flex items-center justify-center">
-                <img src="../assets/img/diamond_mines.png" alt="diamond mines" class="w-full h-32 object-cover" />
-              </div>
-              <span class="text-sm text-gray-700 mt-1 mb-1">diamond mines</span>
-              <PlayButton route="/diamond-mines" />
-            </div>
-
-            <!-- Machine à sous -->
-            <div class="bg-[#f8a0a0] rounded-2xl p-3 flex flex-col items-center w-48">
-              <div class="rounded-xl overflow-hidden w-full h-32 bg-[#3d0000] flex items-center justify-center">
-                <img src="../assets/img/bandit_manchot.png" alt="bandit manchot" class="w-full h-32 object-cover" />
-              </div>
-              <span class="text-sm text-gray-700 mt-1 mb-1">machine a sous</span>
-              <PlayButton route="/bandit-manchot" />
-            </div>
-
+        <!-- Black Jack -->
+        <div class="bg-[#f8a0a0] rounded-2xl p-3 flex flex-col items-center w-48">
+          <div class="outline outline-2 outline-[#5ab4f0] rounded-xl overflow-hidden w-full h-32 bg-[#1a1a2e] flex items-center justify-center">
+            <img src="../assets/img/black_jack.png" alt="blackjack" class="w-full h-32 object-cover" />
           </div>
+          <span class="text-sm text-gray-700 mt-1 mb-1">black jack</span>
+          <PlayButton route="/blackjack"  text="Jouer" class="bg-gradient-to-b from-green-400 to-green-600 hover:from-green-600 hover:to-green-800 rounded-full px-10 py-2 shadow-inner transition-transform duration-150"/>
         </div>
 
-        <!-- Leaderboard Section -->
-        <div class="mt-8">
-          <div class="inline-block bg-[#f8a0a0] rounded-full px-10 py-3">
-            <span class="text-3xl font-light text-black">Leaderboard</span>
+        <!-- Diamond Mines  -->
+        <div class="bg-[#f8a0a0] rounded-2xl p-3 flex flex-col items-center w-48">
+          <div class="rounded-xl overflow-hidden w-full h-32 bg-[#2d1b00] flex items-center justify-center">
+            <img src="../assets/img/diamond_mines.png" alt="diamond mines" class="w-full h-32 object-cover" />
           </div>
+          <span class="text-sm text-gray-700 mt-1 mb-1">diamond mines</span>
+          <PlayButton route="/diamond-mines"  text="Jouer" class="bg-gradient-to-b from-green-400 to-green-600 hover:from-green-600 hover:to-green-800 rounded-full px-10 py-2 shadow-inner transition-transform duration-150"/>
+        </div>
+
+           <!--Bandit Manchot  -->
+          <span class="text-sm text-gray-700 mt-1 mb-1">machine a sous</span>
+          <PlayButton route="/bandit-manchot" text="Jouer" class="bg-gradient-to-b from-green-400 to-green-600 hover:from-green-600 hover:to-green-800 rounded-full px-10 py-2 shadow-inner transition-transform duration-150"/>
         </div>
     </div>
-  </transition>
+
+    <!-- Leaderboard Section -->
+    <div class="mt-8">
+      <div class="inline-block bg-[#f8a0a0] rounded-full px-10 py-3">
+        <PlayButton route="/leaderboard" text="Leaderboard" class="text-3xl font-light text-black"/>
+      </div>
+    </div>
+
+  </div>
 </template>
 
 <style src="../assets/animationHome.css"></style>

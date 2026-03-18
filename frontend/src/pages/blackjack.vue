@@ -1,5 +1,4 @@
 <script setup>
-import Header___ from "@/components/header___.vue";
 </script>
 
 <template>
