@@ -46,9 +46,6 @@ def verify_login(username: str, password: str) -> bool:
 
 
 def show_top():
-
-    print("DATA_FILE =", DATA_FILE)
-    print("exists =", DATA_FILE.exists())
     with open(DATA_FILE, "r") as f:
         users = json.load(f)
     users_subset = [{"username": item["username"], "solde": item["solde"]} for item in users]
@@ -57,4 +54,17 @@ def show_top():
     users_limited = sorted_users[:10]
 
     return users_limited
+
+def add_money_data():
+    with open(DATA_FILE, "r") as f:
+        data = json.load(f)
+
+    for user in data:
+        if user["username"] == "test":
+            user["solde"] += 100
+            break
+
+    with open(DATA_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
 

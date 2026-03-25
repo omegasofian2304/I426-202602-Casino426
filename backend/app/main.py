@@ -11,9 +11,17 @@ from app.logic.manage_profile import hash_and_save
 from app.logic.manage_profile import verify_login
 from app.logic.manage_profile import show_top
 from email_validator import validate_email, EmailNotValidError
+from app.logic.manage_profile import add_money_data
 
 app = FastAPI()
 
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 origins = [
     "http://localhost:8000",
     "http://127.0.0.1:8000",
@@ -51,3 +59,7 @@ def register_user(username: str, password: str, email: str):
 def get_leaderboard():
     leaderboard = show_top()
     return leaderboard
+
+@app.get("/add-money")
+def add_money():
+    return add_money_data()
