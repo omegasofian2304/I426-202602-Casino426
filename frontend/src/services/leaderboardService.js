@@ -1,6 +1,23 @@
 const API_URL = 'http://127.0.0.1:8000';
 
 export async function getLeaderboard() {
+    const response = await fetch(`${API_URL}/leaderboard`);
+
+    if (!response.ok) {
+        throw new Error('Impossible de récupérer le leaderboard');
+    }
+
+    const data = await response.json();
+
+    if (!Array.isArray(data)) {
+        return [];
+    }
+
+    return data
+}
+const API_URL = 'http://127.0.0.1:8000';
+
+export async function getLeaderboard() {
     try {
         const response = await fetch(`${API_URL}/leaderboard`, {
             method: 'GET',
