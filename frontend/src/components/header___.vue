@@ -1,10 +1,11 @@
-/*
+<!--
 File: header__.vue
 Project: Casino426
-  Description: the header is used for this project.
-  Author: Loïc Roux
-  Date of creation: 04.03.2026
-  */
+Description: the header is used for this project.
+Author: Loïc Roux
+Date of creation: 04.03.2026
+-->
+
 <template>
   <header class="w-full bg-[#cc1111] flex items-center h-13 px-4 relative overflow-hidden font-['Oswald'] text-white text-sm tracking-wide">
     <router-link to="/home" class="text-[#000000]">   <!--Route pour retourner à l'accueil quand on clique sur le bouton -->
@@ -17,7 +18,7 @@ Project: Casino426
       <div class="w-5 h-full bg-black opacity-60 -ml-1" style="clip-path: polygon(30% 0%, 100% 0%, 70% 100%, 0% 100%)"></div>
     </div>
 
-    <!-- Titre centré -->
+    <!-- Titre -->
     <span class="absolute left-1/2 -translate-x-1/2 z-10 text-base font-medium whitespace-nowrap">
       Casino Royale
     </span>
@@ -31,7 +32,19 @@ Project: Casino426
 
     <!-- Nav droite -->
     <div class="z-10 flex items-center gap-3 ml-auto">
-      <span class="whitespace-nowrap text-sm">Argent : 23,50</span>
+
+      <ReturnButton textBtn="Ajouter" @click="addMoney" />
+
+      <!-- Argent dynamique -->
+      <span class="whitespace-nowrap text-sm">
+        Argent :
+        <span>
+          23,32
+        </span>
+
+      </span>
+
+      <!-- Avatar -->
       <div class="w-9 h-9 rounded-full border-2 border-[#333] bg-[#f0f0f0] flex items-center justify-center flex-shrink-0">
         <svg class="w-5 h-5 text-[#333]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
@@ -42,9 +55,15 @@ Project: Casino426
 
   </header>
 </template>
-/*
-Source: qwen.ia
-Prompt: How can I do color gradient in his header ?
-*/
-<script setup lang="ts">
+
+<script setup>
+
+import ReturnButton from "../components/returnButton.vue";
+
+async function addMoney() {
+  console.log("Ajouter de l'argent")
+  const response = await fetch("http://localhost:8000/add-money");
+  const data = await response.json();
+}
+
 </script>

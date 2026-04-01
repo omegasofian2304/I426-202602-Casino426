@@ -2,11 +2,16 @@
 defineProps({
   textBtn: String
 })
+const emit = defineEmits(['click'])
+
+const handleClick = () => {
+  emit('click')
+}
 </script>
 
 <template>
   <button class=" rounded-full p-1.5 bg-gradient-to-br from-yellow-300 via-yellow-500 to-yellow-700shadow-lg
-      active:scale-95 hover:scale-105 transition-transform duration-150 ">
+      active:scale-95 hover:scale-105 transition-transform duration-150  " @click="handleClick">
     <div
         class="
         bg-gradient-to-b from-green-600 to-green-800
